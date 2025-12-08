@@ -6,3 +6,5 @@
 "*.png binary" 
 "*.jpg binary" 
 "*.jar binary" 
+"* text=auto eol=lf
+

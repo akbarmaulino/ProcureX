@@ -6,11 +6,12 @@
    <UUID>2a6127d4-0f7d-4d43-9b6c-8efbb421957a</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.2.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.2.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\File Kerja\Project\Sinarmas\ProcureX\Katalon\ProcureX\ProcureX.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User berhasil mengakses menu Item Group</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e41da2f-105e-475f-b111-752ac4ec178d</testCaseGuid>
+</TestCaseEntity>

@@ -4,4 +4,33 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.1.19:3000/login'</initValue>
+      <name>base_url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>
+     	[
+            'admin': [
+                'username': 'usrdev@sinarmasland.com',
+                'password': 'iFGeFYmXIrUhQZHvW7P22w=='
+            ],
+            'user': [
+                'username': 'user@test.com',
+                'password': 'encryptedUserPass'
+            ],
+            'guest': [
+                'username': 'guest@test.com',
+                'password': 'encryptedGuestPass'
+            ]
+        ]
+
+     </initValue>
+      <name>credentials</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
