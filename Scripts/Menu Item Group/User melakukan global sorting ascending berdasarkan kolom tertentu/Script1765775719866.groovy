@@ -16,21 +16,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger
-
-
-
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import helper.VerifyTableSorting as VerifyTableSorting
 
 CustomKeywords.'auth.Login.loginAs'('admin')
 
-
 WebUI.click(findTestObject('Sidebar/sidebar_Master Data'))
-
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
+WebUI.click(findTestObject('Object Repository/MasterItemPage/tab_Item Group'))
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/header_MasterItem'), 10)
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(1, 'ASC')
 
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(2, 'ASC')
 
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(3, 'ASC')
+
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(4, 'ASC')
+
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(5, 'ASC')
 

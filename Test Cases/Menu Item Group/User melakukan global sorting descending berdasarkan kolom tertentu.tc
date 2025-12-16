@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User melakukan global sorting descending berdasarkan kolom tertentu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a368a77-84b2-4538-8d32-4b65a5d68364</testCaseGuid>
+</TestCaseEntity>

@@ -16,21 +16,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger
-
-
-
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import helper.VerifyTableSorting as VerifyTableSorting
 
 CustomKeywords.'auth.Login.loginAs'('admin')
 
-
 WebUI.click(findTestObject('Sidebar/sidebar_Master Data'))
-
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(1, 'DESC')
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/header_MasterItem'), 10)
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(2, 'DESC')
 
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(3, 'DESC')
 
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(4, 'DESC')
+
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(5, 'DESC')
+
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(6, 'DESC')
+
+CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(7, 'DESC')
 

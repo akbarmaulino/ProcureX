@@ -16,21 +16,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger
-
-
-
 
 CustomKeywords.'auth.Login.loginAs'('admin')
 
-
 WebUI.click(findTestObject('Sidebar/sidebar_Master Data'))
-
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
+WebUI.click(findTestObject('MasterItemPage/tab_Item Group'))
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/header_MasterItem'), 10)
+WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add Item Group'))
+
+WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupId'), 'WAG')
+
+WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupName'), 'Wages')
+
+WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add'))
+
+CustomKeywords.'helper.VerifyValue.verifyToastContains'('Item Group created successfully')
+
+CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(2, 'Wages')
 
 
 

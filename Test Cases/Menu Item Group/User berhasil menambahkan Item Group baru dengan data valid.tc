@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User berhasil menambahkan Item Group baru dengan data valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>78077a3e-aeeb-4678-b60b-0db04aa5a9da</testCaseGuid>
+</TestCaseEntity>
