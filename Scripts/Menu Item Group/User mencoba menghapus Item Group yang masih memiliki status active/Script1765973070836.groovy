@@ -25,15 +25,5 @@ WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
 WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add Item Group'))
-
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupId'), 'WAG')
-
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupName'), 'Wages')
-
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add'))
-
-CustomKeywords.'helper.VerifyValue.verifyToastContains'('Item Group created successfully')
-
-CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(2, 'Wages')
+WebUI.click(findTestObject('MasterItemPage/Item Group/icon_delete'))
 

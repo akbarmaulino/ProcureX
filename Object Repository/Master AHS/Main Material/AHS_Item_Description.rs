@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_Item Group</name>
+   <name>AHS_Item_Description</name>
    <tag></tag>
-   <elementGuidId>9b010439-ae10-497c-879f-97f91860c903</elementGuidId>
+   <elementGuidId>58347e80-15a1-48fc-9710-5044c2ca3988</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@role='combobox' and .//span[normalize-space()='Select...']]&#xd;
+</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[normalize-space()='Item Group'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

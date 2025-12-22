@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User berhasil mengubah nama Item Group yang sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f261b67c-fa4d-45ba-a0a3-ee49ef15c26d</testCaseGuid>
+</TestCaseEntity>

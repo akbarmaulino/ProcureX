@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Sidebar/sidebar_Master Data'))
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/header_MasterItem'), 10)
+WebUI.verifyElementPresent(findTestObject('MasterItemPage/tab/tab_MasterItem'), 10)
 
 
 

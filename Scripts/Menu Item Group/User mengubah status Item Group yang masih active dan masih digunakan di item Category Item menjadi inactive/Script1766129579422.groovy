@@ -25,15 +25,22 @@ WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
 WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add Item Group'))
+WebUI.click(findTestObject('MasterItemPage/Item Group/icon_edit'))
 
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupId'), 'WAG')
+WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Group/PopUp_Edit Detail'), 10)
 
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupName'), 'Wages')
+TestObject toggleBtn = findTestObject('Object Repository/button_toggle')
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add'))
+String state = WebUI.getAttribute(toggleBtn, 'aria-checked')
 
-CustomKeywords.'helper.VerifyValue.verifyToastContains'('Item Group created successfully')
+if (state == 'true') {
+    WebUI.comment('Toggle Active')
+    WebUI.click(toggleBtn)
+} else {
+    WebUI.comment('Toggle sudah Inactive')
+}
 
-CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(2, 'Wages')
+WebUI.click(findTestObject('MasterItemPage/Item Group/button_Save'))
+
+CustomKeywords.'helper.VerifyValue.verifyToastContains'('Cannot deactivate Item Group because it ia referenced in another table')
 

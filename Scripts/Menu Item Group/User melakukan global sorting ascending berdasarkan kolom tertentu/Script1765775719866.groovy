@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Sidebar/sidebar_Master Data'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/tab_Item Group'))
+WebUI.click(findTestObject('Object Repository/MasterItemPage/tab/tab_Item Group'))
 
 CustomKeywords.'helper.VerifyTableSorting.byColumnIndex'(1, 'ASC')
 

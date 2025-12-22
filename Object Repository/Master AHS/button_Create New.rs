@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create New</name>
+   <tag></tag>
+   <elementGuidId>c71d09c0-30f6-479a-96c8-70b59dcbe0ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>66e90def-e354-4eca-9a0a-b6d1ed398acc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center disabled:cursor-not-allowed justify-center cursor-pointer whitespace-nowrap rounded-lg text-xs md:text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 px-4 py-2 md:px-6 md:py-3</value>
+      <webElementGuid>523900d3-e744-4331-a496-9054214ecd39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7500faf2-fd9a-427e-b15e-034e146a4c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create New</value>
+      <webElementGuid>a1984d04-ee42-4f8c-8ad1-29306d343e4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;inter_5972bc34-module__OU16Qa__className&quot;]/body[1]/div[@class=&quot;flex min-h-screen text-gray-900&quot;]/div[@class=&quot;flex min-w-0 flex-1 flex-col transition-all duration-300 ease-in-out lg:ml-[260px]&quot;]/main[@class=&quot;flex-1 overflow-x-auto bg-white p-5&quot;]/div[@class=&quot;h-[calc(100vh-64px)] w-full bg-gray-50&quot;]/div[@class=&quot;flex h-full flex-col bg-background&quot;]/div[@class=&quot;flex-1 overflow-auto p-6&quot;]/div[@class=&quot;w-full&quot;]/form[@class=&quot;space-y-8&quot;]/div[@class=&quot;overflow-hidden rounded-xl border bg-card p-6 shadow-sm min-h-[500px]&quot;]/div[@class=&quot;flex flex-col items-center justify-center py-6 text-center&quot;]/div[@class=&quot;mt-8 flex items-center gap-4&quot;]/button[@class=&quot;inline-flex items-center disabled:cursor-not-allowed justify-center cursor-pointer whitespace-nowrap rounded-lg text-xs md:text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 px-4 py-2 md:px-6 md:py-3&quot;]</value>
+      <webElementGuid>db82bdc6-2881-407f-ae8a-2961af02c3f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>8ee44a5b-e291-46a2-ad1f-4b74b553344c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AHS,'])[1]/following::button[1]</value>
+      <webElementGuid>50b99f90-92cd-4278-9b8b-f5cbf9c597ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AHS'])[1]/following::button[1]</value>
+      <webElementGuid>d7f2d35e-b7ab-4dad-8bd8-9ff4171eea2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/preceding::button[1]</value>
+      <webElementGuid>014e3dba-4727-41e8-b7bd-0aa6fc70e440</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create AHS Specification'])[1]/preceding::button[1]</value>
+      <webElementGuid>f5fef0d4-e7da-42dd-84a1-e352a06a397c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create New']/parent::*</value>
+      <webElementGuid>380805ec-01c7-4cb8-8196-bb18124801be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/button</value>
+      <webElementGuid>5c2bdd7c-957a-468d-8222-65fa757a40d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create New' or . = 'Create New')]</value>
+      <webElementGuid>6147e916-0f7d-4c5c-8bf9-80b6180a7079</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

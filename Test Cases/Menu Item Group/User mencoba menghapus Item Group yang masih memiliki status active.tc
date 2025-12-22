@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mencoba menghapus Item Group yang masih memiliki status active</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d8de4d8-b27f-49c6-b318-3e2d294b96f4</testCaseGuid>
+</TestCaseEntity>

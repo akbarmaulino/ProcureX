@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>header_MasterItem</name>
+   <name>tab_MasterItem</name>
    <tag></tag>
    <elementGuidId>6ebad02a-95e5-4ee0-b264-7086ce5ae41d</elementGuidId>
    <selectorCollection>

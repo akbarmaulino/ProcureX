@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_Status</name>
+   <tag></tag>
+   <elementGuidId>65928988-f369-4dd3-8edd-605133c5bb1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='active']/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dde321ff-bd0d-4943-aa45-94fe9a571706</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute inset-0 flex items-center justify-center font-medium text-white transition-opacity duration-200 text-[10px] opacity-0</value>
+      <webElementGuid>178203a1-452b-41cb-a474-a7d1e424bc46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;active&quot;)/span[@class=&quot;absolute inset-0 flex items-center justify-center font-medium text-white transition-opacity duration-200 text-[10px] opacity-0&quot;]</value>
+      <webElementGuid>f91331b4-87a8-45c0-9ab7-4b1cacc8ff5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='active']/span[2]</value>
+      <webElementGuid>92a07921-c147-4a1f-86f9-d540e9fe3715</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span[2]</value>
+      <webElementGuid>0ee6804b-dbfb-43f4-8994-2188ea0686fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add More</name>
+   <tag></tag>
+   <elementGuidId>ba630969-9763-480b-bc8d-46b97d80ded1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2cd9332a-cf39-48c0-8c7d-4587ae3c283a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>disabled:cursor-not-allowed justify-center cursor-pointer whitespace-nowrap md:text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 rounded-md text-xs flex items-center gap-2 px-2 text-red-600 hover:text-red-700 hover:bg-red-50 mt-2 h-9</value>
+      <webElementGuid>4972a1b6-5142-426e-b271-a9afe1e631d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1e1d51f9-6653-4303-889f-97fe04d16568</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Add More</value>
+      <webElementGuid>73c29563-d750-4783-a35d-a2678c281137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;inter_5972bc34-module__OU16Qa__className&quot;]/body[1]/div[@class=&quot;flex min-h-screen text-gray-900&quot;]/div[@class=&quot;flex min-w-0 flex-1 flex-col transition-all duration-300 ease-in-out lg:ml-[260px]&quot;]/main[@class=&quot;flex-1 overflow-x-auto bg-white p-5&quot;]/div[@class=&quot;h-[calc(100vh-64px)] w-full bg-gray-50&quot;]/div[@class=&quot;flex h-full flex-col bg-background&quot;]/div[@class=&quot;flex-1 overflow-auto p-6&quot;]/div[@class=&quot;w-full&quot;]/form[@class=&quot;space-y-8&quot;]/div[@class=&quot;overflow-hidden rounded-xl border bg-card p-6 shadow-sm min-h-[500px]&quot;]/div[2]/div[@class=&quot;space-y-8&quot;]/div[@class=&quot;overflow-x-auto pb-4&quot;]/div[@class=&quot;min-w-max&quot;]/button[@class=&quot;disabled:cursor-not-allowed justify-center cursor-pointer whitespace-nowrap md:text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 rounded-md text-xs flex items-center gap-2 px-2 text-red-600 hover:text-red-700 hover:bg-red-50 mt-2 h-9&quot;]</value>
+      <webElementGuid>edb14467-a07e-45c0-8582-ef9ad69cf805</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>1a8ee683-8cda-4e79-aefb-1e360ecd373b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formula'])[1]/following::button[1]</value>
+      <webElementGuid>64118149-cfa3-45d3-9043-ce4f8bc48037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add More'])[2]/preceding::button[1]</value>
+      <webElementGuid>6fbe38cf-d3f7-4e8a-81b3-d3960e951a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add More']/parent::*</value>
+      <webElementGuid>26f59a9a-85e2-4427-842b-48424485943e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>7396ae84-fb32-4306-b460-580e2225412d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Add More' or . = ' Add More')]</value>
+      <webElementGuid>a4317abb-841c-41c4-82b4-61f2992bc21b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

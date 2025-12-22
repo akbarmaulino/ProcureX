@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_view</name>
+   <tag></tag>
+   <elementGuidId>7d65a03f-53bb-40c5-adb4-e8b84c721746</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='ITM'])[1]/preceding::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9550c024-1906-4dbe-8bab-28fc5da70e07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg bg-blue-100 text-blue-500 transition hover:bg-blue-200</value>
+      <webElementGuid>ae4fa5ad-310f-4e5e-b1da-d8d211ec26b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>View</value>
+      <webElementGuid>93df9da3-bc5c-4471-9819-33fa0e532b22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;inter_5972bc34-module__OU16Qa__className&quot;]/body[1]/div[@class=&quot;flex min-h-screen text-gray-900&quot;]/div[@class=&quot;flex min-w-0 flex-1 flex-col transition-all duration-300 ease-in-out lg:ml-[260px]&quot;]/main[@class=&quot;flex-1 overflow-x-auto bg-white p-5&quot;]/div[@class=&quot;min-h-screen w-full bg-gray-50&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;p-4 md:p-6&quot;]/div[@class=&quot;w-full p-8&quot;]/div[@class=&quot;custom-scrollbar relative max-h-[600px] overflow-x-auto overflow-y-auto&quot;]/div[@class=&quot;relative w-full overflow-auto&quot;]/table[@class=&quot;w-full caption-bottom text-sm&quot;]/tbody[@class=&quot;[&amp;_tr:last-child]:border-0&quot;]/tr[@class=&quot;hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors bg-white&quot;]/td[@class=&quot;text-primary-text p-3 align-middle text-sm [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] min-w-[120px] border border-gray-300 !text-xs whitespace-nowrap&quot;]/div[@class=&quot;flex items-center gap-2&quot;]/div[@class=&quot;flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg bg-blue-100 text-blue-500 transition hover:bg-blue-200&quot;]</value>
+      <webElementGuid>34eb8e6d-db3a-41ea-9fed-3baf9cae042d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ITM'])[1]/preceding::div[1]</value>
+      <webElementGuid>e5235a60-f0ea-4633-b85c-a24986a0cd19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Material'])[1]/preceding::div[2]</value>
+      <webElementGuid>cb4c31a5-67e8-4fd6-97f0-82e91e843c8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/div/div[3]</value>
+      <webElementGuid>7d0895c4-bddd-4de0-80a6-28fe90360379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'View']</value>
+      <webElementGuid>5239e0ec-bafa-4a0b-8a88-e5c26761b88a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

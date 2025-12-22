@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mengubah status Item Group yang masih active dan masih digunakan di item Category Item menjadi inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f3d49b33-c52c-4a6c-a03f-24bdfa6628c5</testCaseGuid>
+</TestCaseEntity>

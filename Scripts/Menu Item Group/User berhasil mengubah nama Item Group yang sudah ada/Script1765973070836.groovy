@@ -25,15 +25,13 @@ WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
 WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add Item Group'))
+WebUI.click(findTestObject('MasterItemPage/Item Group/icon_edit'))
 
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupId'), 'WAG')
+WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Group/PopUp_Edit Detail'), 10)
 
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupName'), 'Wages')
+WebUI.setText(findTestObject('MasterItemPage/Item Group/input__groupName'), 'Wages Update')
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add'))
+WebUI.click(findTestObject('MasterItemPage/Item Group/button_Save'))
 
-CustomKeywords.'helper.VerifyValue.verifyToastContains'('Item Group created successfully')
-
-CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(2, 'Wages')
+CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(2, 'Wages Update')
 
