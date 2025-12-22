@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='active']/span[2]</value>
+         <value>//button[@role='switch']&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dde321ff-bd0d-4943-aa45-94fe9a571706</webElementGuid>
+      <webElementGuid>11f6ce98-36bc-4679-b8e3-cbdace50f8d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>absolute inset-0 flex items-center justify-center font-medium text-white transition-opacity duration-200 text-[10px] opacity-0</value>
-      <webElementGuid>178203a1-452b-41cb-a474-a7d1e424bc46</webElementGuid>
+      <webElementGuid>9db296ec-d6b2-47d3-a0c0-14d0221bd21b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;active&quot;)/span[@class=&quot;absolute inset-0 flex items-center justify-center font-medium text-white transition-opacity duration-200 text-[10px] opacity-0&quot;]</value>
-      <webElementGuid>f91331b4-87a8-45c0-9ab7-4b1cacc8ff5a</webElementGuid>
+      <webElementGuid>ddcdeec4-dd0c-469f-8dc2-bddec2bc358d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='active']/span[2]</value>
-      <webElementGuid>92a07921-c147-4a1f-86f9-d540e9fe3715</webElementGuid>
+      <webElementGuid>261385d7-6e8b-4d89-9c1d-475737d8c979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span[2]</value>
-      <webElementGuid>0ee6804b-dbfb-43f4-8994-2188ea0686fb</webElementGuid>
+      <webElementGuid>d19efad0-0f7b-43d9-82ef-63b702ba9a86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

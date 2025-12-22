@@ -23,24 +23,20 @@ WebUI.click(findTestObject('Sidebar/sidebar_Budget plan'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
+WebUI.click(findTestObject('MasterItemPage/tab/tab_item Category'))
 
-WebUI.click(findTestObject('MasterItemPage/Item Group/icon_edit'))
+WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Category/button_Add Item Category'))
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Group/PopUp_Edit Detail'), 10)
+WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Category/input__description'), 'Pekerja Upahh')
 
-TestObject toggleBtn = findTestObject('Object Repository/MasterItemPage/Item Group/toggle_Status')
+WebUI.click(findTestObject('Object Repository/Add Material Category/button_Select Item Group Name'))
 
-String state = WebUI.getAttribute(toggleBtn, 'aria-checked')
+WebUI.setText(findTestObject('Object Repository/Add Material Category/input_Select Item Group Name_radix-_r_29_'), 'Wages')
 
-if (state == 'true') {
-    WebUI.comment('Toggle Active')
-    WebUI.click(toggleBtn)
-} else {
-    WebUI.comment('Toggle sudah Inactive')
-}
+WebUI.sendKeys(findTestObject('Object Repository/Add Material Category/input_Select Item Group Name_radix-_r_29_'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('MasterItemPage/Item Group/button_Save'))
+WebUI.click(findTestObject('Object Repository/Add Material Category/div_Wages'))
 
-CustomKeywords.'helper.VerifyValue.verifyToastContains'('Cannot deactivate Item Group because it ia referenced in another table')
+WebUI.click(findTestObject('Object Repository/Add Material Category/button_Add'))
 

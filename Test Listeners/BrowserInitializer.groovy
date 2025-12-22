@@ -26,11 +26,11 @@ import com.kms.katalon.core.context.TestSuiteContext
 
 class BrowserInitializer {
 
-    @AfterTestCase
-    def afterCases() {
-		WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
-        WebUI.closeBrowser()
-    }
+//    @AfterTestCase
+//    def afterCases() {
+//		WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
+//        WebUI.closeBrowser()
+//    }
 	
 	@BeforeTestCase
 	def beforeCases() {

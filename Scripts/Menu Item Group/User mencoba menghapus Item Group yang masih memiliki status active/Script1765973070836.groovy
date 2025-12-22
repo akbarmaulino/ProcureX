@@ -27,3 +27,9 @@ WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
 
 WebUI.click(findTestObject('MasterItemPage/Item Group/icon_delete'))
 
+
+WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Confirmation Delete'))
+
+CustomKeywords.'helper.VerifyValue.verifyToastContains'('Failed to delete item group')
+
+
