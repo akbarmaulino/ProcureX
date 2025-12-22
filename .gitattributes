@@ -1,16 +1,15 @@
-# Default behavior: auto-detect text files and normalize to LF
-* text=auto eol=lf
+# Biarkan Git otomatis detect, jangan paksa LF
+* text=auto
 
-# Scripts
+# File yang HARUS LF
 *.sh text eol=lf
-*.bat text eol=crlf
 *.groovy text eol=lf
 *.rs text eol=lf
 
-# Binary files
+# File yang boleh CRLF
+*.bat text eol=crlf
+
+# Binary
 *.png binary
 *.jpg binary
-*.jpeg binary
 *.jar binary
-*.zip binary
-*.exe binary
