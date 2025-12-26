@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 CustomKeywords.'auth.Login.loginAs'('admin')
 
@@ -26,5 +25,17 @@ WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
 WebUI.click(findTestObject('MasterItemPage/tab/tab_item Category'))
 
-CustomKeywords.'helper.VerifyValue.verifyMenuIsActiveWithIndicator'('Item Category')
+WebUI.click(findTestObject('MasterItemPage/Item Category/button_Add Item Category'))
+
+WebUI.setText(findTestObject('MasterItemPage/Item Category/input__description'), 'Batu Bata')
+
+WebUI.click(findTestObject('MasterItemPage/Item Category/button_Select Item Group Name'))
+
+WebUI.setText(findTestObject('MasterItemPage/Item Category/input_search'), 'Materials')
+
+WebUI.click(findTestObject('MasterItemPage/Item Category/input_firstItem'))
+
+WebUI.click(findTestObject('MasterItemPage/Item Category/button_Add'))
+
+CustomKeywords.'helper.VerifyValue.verifyToastContains'('Failed to create item category already exist')
 

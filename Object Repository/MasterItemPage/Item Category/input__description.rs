@@ -3,15 +3,15 @@
    <description></description>
    <name>input__description</name>
    <tag></tag>
-   <elementGuidId>4cbb40b8-f0fd-46fd-b8c8-07461fff0f21</elementGuidId>
+   <elementGuidId>e8c0e18f-c5bc-49d8-bca6-b0e858e9db2e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='description']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#description</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>172775cb-6e50-40b5-b388-d6bfcdb4d87e</webElementGuid>
+      <webElementGuid>ab6f937f-45dc-4002-9a05-f76bb70b3a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>description</value>
-      <webElementGuid>4f21d1d0-ec07-4de1-8232-247b0a8ab95a</webElementGuid>
+      <webElementGuid>1ce9640c-7938-4a2d-aa66-89fefb131a43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>border-border aria-invalid:border-destructive aria-invalid:placeholder:text-destructive file:text-foreground disabled:bg-disabled/60 flex h-10 w-full rounded-md border bg-transparent px-2 text-xs font-normal transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-xs placeholder:text-neutral-50 focus-visible:border-neutral-50 focus-visible:bg-transparent focus-visible:outline-none disabled:cursor-not-allowed disabled:text-neutral-100 md:h-12 md:px-4 md:text-sm md:placeholder:text-sm</value>
-      <webElementGuid>b15b767f-eddd-40f0-8040-c56cdacf297c</webElementGuid>
+      <webElementGuid>c75f8684-e44c-4567-9c1c-f6fdd7848e3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Input Category Description</value>
-      <webElementGuid>e895b0d8-a680-40df-a2f0-508fccb7a400</webElementGuid>
+      <webElementGuid>1f5d3fe1-541b-4512-9d13-1355db8c33e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;description&quot;)</value>
-      <webElementGuid>3e4339b6-a7fe-4fb5-b33f-58fc2e4f6441</webElementGuid>
+      <webElementGuid>3b775e03-d51f-48b2-814a-1fdfe1d9b63d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,15 +63,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='description']</value>
-      <webElementGuid>ad9f16de-00ce-4367-a2cc-bacd00bcd822</webElementGuid>
+      <webElementGuid>6469b13e-aaab-400f-920a-776e7b0dc10f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='radix-_r_1r_']/div[2]/div/div/div/input</value>
-      <webElementGuid>bf66ca02-311c-41aa-bb2a-e042a7225028</webElementGuid>
+      <value>//div[@id='radix-_r_1p_']/div[2]/div/div/div/input</value>
+      <webElementGuid>5d8b36ed-ebf0-41a7-aa27-7a629b5cf7c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>5016ea3b-f057-4cd3-9bbe-b86e7a1a49eb</webElementGuid>
+      <webElementGuid>48b8fcd5-8660-470a-b426-61e04b4de091</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'description' and @placeholder = 'Input Category Description']</value>
-      <webElementGuid>6ba31145-aac9-406d-a580-c06bde2c4b46</webElementGuid>
+      <webElementGuid>63a10cf9-34ba-40a3-91c1-fcc931bde4fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

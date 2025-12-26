@@ -23,20 +23,14 @@ WebUI.click(findTestObject('Sidebar/sidebar_Budget plan'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('MasterItemPage/tab/tab_item Category'))
+WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
 
-WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Category/button_Add Item Category'))
+WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add Item Group'))
 
-WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Category/input__description'), 'Pekerja Upahh')
+WebUI.setText(findTestObject('Object Repository/MasterItemPage/Item Group/input__groupName'), 'Wages')
 
-WebUI.click(findTestObject('Object Repository/Add Material Category/button_Select Item Group Name'))
+WebUI.click(findTestObject('Object Repository/MasterItemPage/Item Group/button_Add'))
 
-WebUI.setText(findTestObject('Object Repository/Add Material Category/input_Select Item Group Name_radix-_r_29_'), 'Wages')
+CustomKeywords.'helper.VerifyValue.verifyToastContains'('Failed to create item group already exist')
 
-WebUI.sendKeys(findTestObject('Object Repository/Add Material Category/input_Select Item Group Name_radix-_r_29_'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Add Material Category/div_Wages'))
-
-WebUI.click(findTestObject('Object Repository/Add Material Category/button_Add'))
 

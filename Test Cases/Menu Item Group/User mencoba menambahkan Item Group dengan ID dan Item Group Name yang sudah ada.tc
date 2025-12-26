@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Menu Item Category</name>
+   <name>User mencoba menambahkan Item Group dengan ID dan Item Group Name yang sudah ada</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>83921235-4483-43e1-a493-890c039ae623</testCaseGuid>
+   <testCaseGuid>85c74614-2b01-4012-9215-1398a71bce23</testCaseGuid>
 </TestCaseEntity>

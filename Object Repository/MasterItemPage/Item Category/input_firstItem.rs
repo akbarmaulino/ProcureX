@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_item Category</name>
+   <name>input_firstItem</name>
    <tag></tag>
-   <elementGuidId>f567c855-d36f-4e7c-975c-fdad49448a96</elementGuidId>
+   <elementGuidId>eac478a5-a058-4a32-808f-a1b2a7926c00</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Item Category']</value>
+         <value>(//div[@cmdk-group-items]//div[@cmdk-item])[1]&#xd;
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

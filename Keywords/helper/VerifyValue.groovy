@@ -83,10 +83,10 @@ class VerifyValue {
 
 		// ===== DEBUG LOG =====
 		WebUI.comment("""
-[TOAST DEBUG]
-Total toast : ${toastMessages.size()}
-Messages    : ${toastMessages}
-""")
+			[TOAST DEBUG]
+			Total toast : ${toastMessages.size()}
+			Messages    : ${toastMessages}
+		""")
 
 		// ===== VERIFY EXPECTED =====
 		boolean found = toastMessages.any {
@@ -94,13 +94,35 @@ Messages    : ${toastMessages}
 		}
 
 		assert found : """
-EXPECTED TOAST NOT FOUND
-Expected : ${expectedMessage}
-Actual   : ${toastMessages}
-"""
+		EXPECTED TOAST NOT FOUND
+		Expected : ${expectedMessage}
+		Actual   : ${toastMessages}
+		"""
+	}
+
+	@Keyword
+	def verifyMenuIsActiveWithIndicator(String menuName) {
+	
+		def driver = DriverFactory.getWebDriver()
+	
+		def activeMenu = driver.findElements(
+			By.xpath("""
+			//button[normalize-space()='${menuName}'
+			and contains(@class,'text-red-600')
+			and .//div[contains(@class,'bg-red-600')]]
+			""")
+		)
+	
+		assert activeMenu.size() == 1 : """
+		Menu '${menuName}' is NOT active
+		Expected:
+		- text-red-600
+		- active indicator bar
+		"""
+	
+		WebUI.comment("Menu '${menuName}' is ACTIVE with indicator")
 	}
 }
-
 
 
 

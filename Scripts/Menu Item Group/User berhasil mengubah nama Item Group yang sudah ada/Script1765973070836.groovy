@@ -33,5 +33,5 @@ WebUI.setText(findTestObject('MasterItemPage/Item Group/input__groupName'), 'Wag
 
 WebUI.click(findTestObject('MasterItemPage/Item Group/button_Save'))
 
-CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(2, 'Wages Update')
+CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(1, 'Wages Update')
 

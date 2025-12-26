@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Sidebar/sidebar_Budget plan'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('MasterItemPage/tab/tab_item Category'))
+WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
 
-CustomKeywords.'helper.VerifyValue.verifyMenuIsActiveWithIndicator'('Item Category')
+CustomKeywords.'helper.VerifyValue.verifyMenuIsActiveWithIndicator'('Item Group')
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_item Category</name>
+   <name>input_search</name>
    <tag></tag>
-   <elementGuidId>f567c855-d36f-4e7c-975c-fdad49448a96</elementGuidId>
+   <elementGuidId>80bc618b-c3e4-4008-a284-d436d02c6bcb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Item Category']</value>
+         <value>//input[@cmdk-input and @role='combobox']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

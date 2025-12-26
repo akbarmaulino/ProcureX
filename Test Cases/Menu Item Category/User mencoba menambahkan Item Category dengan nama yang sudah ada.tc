@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mencoba menambahkan Item Category dengan nama yang sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7237bfb9-1371-4ca3-acc8-d60e8f1034f1</testCaseGuid>
+</TestCaseEntity>
