@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mencoba menghapus Item Sub Category yang masih digunakan oleh Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d40f678-bc9c-4796-8d6d-233ef518db8c</testCaseGuid>
+</TestCaseEntity>

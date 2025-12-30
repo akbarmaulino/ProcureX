@@ -3,7 +3,7 @@
    <description></description>
    <name>toggle_Status</name>
    <tag></tag>
-   <elementGuidId>b3f3315b-f224-4405-bfb6-a678089d8f59</elementGuidId>
+   <elementGuidId>65928988-f369-4dd3-8edd-605133c5bb1e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>86fb2b4c-40cd-4b30-8f5c-7b507135abca</webElementGuid>
+      <webElementGuid>11f6ce98-36bc-4679-b8e3-cbdace50f8d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>absolute inset-0 flex items-center justify-center font-medium text-white transition-opacity duration-200 text-[10px] opacity-0</value>
-      <webElementGuid>25e0884d-130c-412b-a0e4-8623d5d5e55e</webElementGuid>
+      <webElementGuid>9db296ec-d6b2-47d3-a0c0-14d0221bd21b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;active&quot;)/span[@class=&quot;absolute inset-0 flex items-center justify-center font-medium text-white transition-opacity duration-200 text-[10px] opacity-0&quot;]</value>
-      <webElementGuid>bb0bfed9-4a27-4e52-9119-7d616ec3030b</webElementGuid>
+      <webElementGuid>ddcdeec4-dd0c-469f-8dc2-bddec2bc358d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='active']/span[2]</value>
-      <webElementGuid>37e1b23d-eff3-4810-9a6b-9f5013df6e6a</webElementGuid>
+      <webElementGuid>261385d7-6e8b-4d89-9c1d-475737d8c979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span[2]</value>
-      <webElementGuid>1079f4d5-63fb-43d1-8d4c-c8b30e290ff1</webElementGuid>
+      <webElementGuid>d19efad0-0f7b-43d9-82ef-63b702ba9a86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

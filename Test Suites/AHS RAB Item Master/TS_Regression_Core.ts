@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>QS Regression</name>
+   <name>TS_Regression_Core</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>caf7d5a6-b1d0-4cf3-8e37-6c267ba7cdfd</testSuiteGuid>
+   <testSuiteGuid>ff1111cd-1a60-4796-99a7-7ee384fc6585</testSuiteGuid>
 </TestSuiteEntity>

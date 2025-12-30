@@ -18,13 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
+
 CustomKeywords.'auth.Login.loginAs'('admin')
 
 WebUI.click(findTestObject('Sidebar/sidebar_Budget plan'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
+WebUI.click(findTestObject('MasterItemPage/tab/tab_item Category'))
 
-CustomKeywords.'helper.VerifyValue.verifyMenuIsActiveWithIndicator'('Item Group')
+CustomKeywords.'helper.VerifyValue.verifyMenuIsActiveWithIndicator'('Item Category')
+
+
+
 

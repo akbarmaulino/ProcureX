@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_delete</name>
+   <name>icon_view</name>
    <tag></tag>
-   <elementGuidId>a147b5b6-7265-4de4-aff6-81d9b63b7cdc</elementGuidId>
+   <elementGuidId>dcc82715-a83c-42ad-b8c2-0d22643952be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody/tr[1]/td//div[@title='Delete']</value>
+         <value>//tbody/tr[1]/td//div[@title='View']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9c714423-754d-40cf-98b1-f7b7e3a9834e</webElementGuid>
+      <webElementGuid>8653ea08-a009-46b4-bc13-c3334aceed7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg bg-blue-100 text-blue-500 transition hover:bg-blue-200</value>
-      <webElementGuid>a9e9c4c2-86e1-418a-8fae-45e2f1a9b8d4</webElementGuid>
+      <webElementGuid>fa60a464-dfba-4e60-93a0-48bf2421d135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>title</name>
       <type>Main</type>
       <value>View</value>
-      <webElementGuid>0c8d3769-a097-4be6-8ab6-20d264e9351c</webElementGuid>
+      <webElementGuid>da8ece0e-c590-486e-8334-d4e312e3e4bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;inter_5972bc34-module__OU16Qa__className&quot;]/body[1]/div[@class=&quot;flex min-h-screen text-gray-900&quot;]/div[@class=&quot;flex min-w-0 flex-1 flex-col transition-all duration-300 ease-in-out lg:ml-[260px]&quot;]/main[@class=&quot;flex-1 overflow-x-auto bg-white p-5&quot;]/div[@class=&quot;min-h-screen w-full bg-gray-50&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;p-4 md:p-6&quot;]/div[@class=&quot;w-full p-8&quot;]/div[@class=&quot;custom-scrollbar relative max-h-[600px] overflow-x-auto overflow-y-auto&quot;]/div[@class=&quot;relative w-full overflow-auto&quot;]/table[@class=&quot;w-full caption-bottom text-sm&quot;]/tbody[@class=&quot;[&amp;_tr:last-child]:border-0&quot;]/tr[@class=&quot;hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors bg-white&quot;]/td[@class=&quot;text-primary-text p-3 align-middle text-sm [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px] min-w-[120px] border border-gray-300 !text-xs whitespace-nowrap&quot;]/div[@class=&quot;flex items-center gap-2&quot;]/div[@class=&quot;flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg bg-blue-100 text-blue-500 transition hover:bg-blue-200&quot;]</value>
-      <webElementGuid>0ba48805-5665-476d-a360-7fce0d1f8e8f</webElementGuid>
+      <webElementGuid>a96cc58a-1cd1-4ffe-8b0f-5884dd4f7c92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ITM'])[1]/preceding::div[1]</value>
-      <webElementGuid>07b97eca-191f-446c-b828-704b777c895b</webElementGuid>
+      <webElementGuid>547bc0ef-4b23-4593-9018-9c5cc89bb006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Material'])[1]/preceding::div[2]</value>
-      <webElementGuid>7b7456ff-d6fe-4297-a78e-60a78dbbe234</webElementGuid>
+      <webElementGuid>9839c016-cf68-4dc5-bed1-48d0a4c53cb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[6]/div/div[3]</value>
-      <webElementGuid>6aa71e7c-bf84-42bf-b2b1-15c22408ac5a</webElementGuid>
+      <webElementGuid>1b6e6c19-4fd1-4108-b8a1-73f5bdeea9fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@title = 'View']</value>
-      <webElementGuid>6931445e-d6d6-4cfb-8cf1-150f79974f28</webElementGuid>
+      <webElementGuid>9e12e290-52a9-455c-8a73-815c3492c804</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

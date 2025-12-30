@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mencoba menambahkan Item Sub Category dengan data yang sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d66bbf0-101b-458f-8ec4-ae4a6996ce40</testCaseGuid>
+</TestCaseEntity>

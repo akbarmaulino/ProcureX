@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PopUp_View Detail</name>
+   <name>PopUp_Edit Detail</name>
    <tag></tag>
-   <elementGuidId>104b08f9-6bfc-44aa-a8dd-d9173d0bb19f</elementGuidId>
+   <elementGuidId>1e5dca25-9236-4bf6-9171-699bf339ff5c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h2[contains(text(), 'View Item Group')]</value>
+         <value>//h2[contains(text(), 'Edit Item Subcategory')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c3da1e81-1ded-4842-a474-0b5a6b55bd7d</webElementGuid>
+      <webElementGuid>15262845-f01d-4474-bf16-6f9fa2735173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>6bd9f12c-7cb5-409f-bb10-2769b4d9789d</webElementGuid>
+      <webElementGuid>8620410b-619e-4f8a-b424-c06f0dda405b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>radix-_r_1t_</value>
-      <webElementGuid>833dff84-b09e-4026-8fbe-582653029936</webElementGuid>
+      <webElementGuid>b6461de7-601b-4892-b1f4-7457ef82c579</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>radix-_r_1v_</value>
-      <webElementGuid>cf93fc3e-6fba-4707-8e43-355e225a8e0e</webElementGuid>
+      <webElementGuid>5d57060b-b05f-47eb-ac4d-b0fd2e7dfac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>radix-_r_1u_</value>
-      <webElementGuid>dcf09f06-1ce4-4854-998f-84dab6851717</webElementGuid>
+      <webElementGuid>1d0d81b0-085b-4eb8-b9a5-b5889ed1b12f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>open</value>
-      <webElementGuid>46882838-328c-4cbd-b1f3-ce26c2a3600d</webElementGuid>
+      <webElementGuid>bad66399-1d60-4e40-b332-6bbaa15aa112</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bg-background data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] fixed top-[50%] left-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 p-6 shadow-lg duration-200 sm:rounded-lg sm:max-w-lg [&amp;>button]:h-10 [&amp;>button]:w-10 [&amp;>button]:text-gray-400 [&amp;>button]:hover:text-gray-600 [&amp;>button>svg]:h-6 [&amp;>button>svg]:w-6</value>
-      <webElementGuid>19a14c9b-7a20-41dc-87e1-852efc8507a7</webElementGuid>
+      <webElementGuid>7556a6fc-08e3-4787-af15-fd397c38cf82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>01e16caf-782a-4fdb-9441-4bf7fbecdc1b</webElementGuid>
+      <webElementGuid>edf7369b-1af8-4366-9f2b-8efc3fa0915f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View Item GroupItem Group Id *Item Group Name *ActiveClose</value>
-      <webElementGuid>a800b011-5bdb-4145-be72-d77e4d236b59</webElementGuid>
+      <webElementGuid>0fd440b5-fcde-42d9-a021-a00e977d85eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;radix-_r_1t_&quot;)</value>
-      <webElementGuid>34ecf8b7-9b13-4486-91b6-2798b574cfe8</webElementGuid>
+      <webElementGuid>3f348fdc-a0d9-458c-851e-915771074479</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='radix-_r_1t_']</value>
-      <webElementGuid>dfdfb5bd-2cff-4c67-8550-26ed7ed7878a</webElementGuid>
+      <webElementGuid>684f975f-2c71-4f21-8c21-a41fcb029626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2025 Sinar Mas Land. All Rights Reserved. Corporate Information Technology.'])[1]/following::div[2]</value>
-      <webElementGuid>4ae2667f-862d-4541-88df-18f5f4c91080</webElementGuid>
+      <webElementGuid>e2bdeff0-3966-4cf4-9c69-d11593a3ffe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]</value>
-      <webElementGuid>88bd3cad-1d6d-4fba-97da-8da5ef1b094f</webElementGuid>
+      <webElementGuid>c8a08ff1-3863-42ba-b11a-71c5184c1ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'radix-_r_1t_' and (text() = 'View Item GroupItem Group Id *Item Group Name *ActiveClose' or . = 'View Item GroupItem Group Id *Item Group Name *ActiveClose')]</value>
-      <webElementGuid>6c277685-3f4b-4234-8fb1-bb993fc984d2</webElementGuid>
+      <webElementGuid>c02dd187-cbb2-4c9c-b27f-d4efb0819c9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

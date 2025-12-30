@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User menghapus Item Sub Category yang tidak digunakan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>618d5f57-d1df-4b7c-9a37-d55d43c3c8c5</testCaseGuid>
+</TestCaseEntity>

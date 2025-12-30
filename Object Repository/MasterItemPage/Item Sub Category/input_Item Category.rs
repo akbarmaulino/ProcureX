@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_firstItem</name>
+   <name>input_Item Category</name>
    <tag></tag>
-   <elementGuidId>eac478a5-a058-4a32-808f-a1b2a7926c00</elementGuidId>
+   <elementGuidId>a8a8b476-c387-44dd-a3f6-443e8e1232f8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@cmdk-group-items]//div[@cmdk-item])[1]&#xd;
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@role='combobox'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

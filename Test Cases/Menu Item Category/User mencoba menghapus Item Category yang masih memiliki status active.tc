@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mencoba menghapus Item Category yang masih memiliki status active</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaa72484-0453-44e4-9b86-7eadde3fe1f5</testCaseGuid>
+</TestCaseEntity>

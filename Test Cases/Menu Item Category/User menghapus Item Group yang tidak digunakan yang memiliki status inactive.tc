@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User menghapus Item Group yang tidak digunakan yang memiliki status inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b315f9cc-a42d-43de-8e69-e0c5cc8fa1a3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User berhasil masuk kedalam menu Item Subcategory dan melihat semua list item subcategory yang ada di ProcureX</description>
+   <name>User berhasil mengakses menu Item Sub Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec3c6da8-7756-4587-8646-a29f1232f82c</testCaseGuid>
+</TestCaseEntity>

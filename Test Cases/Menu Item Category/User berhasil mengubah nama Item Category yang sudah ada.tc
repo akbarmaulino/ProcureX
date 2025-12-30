@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User berhasil mengubah nama Item Category yang sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c3be318-3f44-4cbc-9c7e-1a1e6d7e6fa0</testCaseGuid>
+</TestCaseEntity>

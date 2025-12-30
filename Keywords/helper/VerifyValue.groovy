@@ -48,7 +48,7 @@ class VerifyValue {
 			if (actual == expectedValue) {
 				WebUI.comment("Value found at row ${index + 1}, column ${columnIndex}: ${actual}")
 				found = true
-				return // ⬅️ STOP LOOP
+				return 
 			}
 		}
 
@@ -81,14 +81,14 @@ class VerifyValue {
 
 		assert !toastMessages.isEmpty() : "No toast appeared within ${timeout} seconds"
 
-		// ===== DEBUG LOG =====
+
 		WebUI.comment("""
 			[TOAST DEBUG]
 			Total toast : ${toastMessages.size()}
 			Messages    : ${toastMessages}
 		""")
 
-		// ===== VERIFY EXPECTED =====
+
 		boolean found = toastMessages.any {
 			it.contains(expectedMessage)
 		}

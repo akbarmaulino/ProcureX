@@ -23,24 +23,15 @@ WebUI.click(findTestObject('Sidebar/sidebar_Budget plan'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
+WebUI.click(findTestObject('MasterItemPage/tab/tab_item Category'))
 
 WebUI.click(findTestObject('MasterItemPage/Item Group/icon_edit'))
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Group/PopUp_Edit Detail'), 10)
+WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Category/PopUp_Edit Detail'), 10)
 
-TestObject toggleBtn = findTestObject('Object Repository/MasterItemPage/Item Category/toggle_Status')
-
-String state = WebUI.getAttribute(toggleBtn, 'aria-checked')
-
-if (state == 'true') {
-    WebUI.comment('Toggle Active')
-    WebUI.click(toggleBtn)
-} else {
-    WebUI.comment('Toggle sudah Inactive')
-}
+WebUI.setText(findTestObject('MasterItemPage/Item Category/input__description'), 'Batu Bata Update')
 
 WebUI.click(findTestObject('MasterItemPage/Item Group/button_Save'))
 
-CustomKeywords.'helper.VerifyValue.verifyToastContains'('Cannot deactivate Item Group because it is referenced in another table')
+CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(1, 'Batu Bata Update')
 

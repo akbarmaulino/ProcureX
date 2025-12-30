@@ -3,15 +3,15 @@
    <description></description>
    <name>input_firstItem</name>
    <tag></tag>
-   <elementGuidId>eac478a5-a058-4a32-808f-a1b2a7926c00</elementGuidId>
+   <elementGuidId>d625b89c-f108-448b-ad8f-5abad4567615</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//div[@cmdk-group-items]//div[@cmdk-item])[1]&#xd;
 </value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

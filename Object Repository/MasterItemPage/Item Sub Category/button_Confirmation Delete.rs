@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_firstItem</name>
+   <name>button_Confirmation Delete</name>
    <tag></tag>
-   <elementGuidId>eac478a5-a058-4a32-808f-a1b2a7926c00</elementGuidId>
+   <elementGuidId>4308b5d4-29dc-4157-a970-a895c2771c1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@cmdk-group-items]//div[@cmdk-item])[1]&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Delete']&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User dapat melihat detail dari item category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c4e8a69-4cb5-44f3-8b0d-43e9e9db324b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User mencoba menambahkan data Item subcateory dengan mengunakan spesial karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d4013b2-ba77-4510-b5aa-68e6c207ad92</testCaseGuid>
+</TestCaseEntity>

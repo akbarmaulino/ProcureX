@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User berhasil masuk ke menu Item Group dan melihat semua list item group dengan semua status yang ada di ProcureX</description>
    <name>User berhasil mengakses menu Item Group</name>
    <tag></tag>
    <comment></comment>

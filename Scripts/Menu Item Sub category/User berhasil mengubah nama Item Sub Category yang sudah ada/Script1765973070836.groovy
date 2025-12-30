@@ -23,24 +23,15 @@ WebUI.click(findTestObject('Sidebar/sidebar_Budget plan'))
 
 WebUI.click(findTestObject('Sidebar/subMenu_Master Item'))
 
-WebUI.click(findTestObject('MasterItemPage/tab/tab_Item Group'))
+WebUI.click(findTestObject('MasterItemPage/tab/tab_sub_Category'))
 
-WebUI.click(findTestObject('MasterItemPage/Item Group/icon_edit'))
+WebUI.click(findTestObject('MasterItemPage/Item Sub Category/icon_edit'))
 
-WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Group/PopUp_Edit Detail'), 10)
+WebUI.verifyElementPresent(findTestObject('MasterItemPage/Item Sub Category/PopUp_Edit Detail'), 10)
 
-TestObject toggleBtn = findTestObject('Object Repository/MasterItemPage/Item Category/toggle_Status')
+WebUI.setText(findTestObject('MasterItemPage/Item Sub Category/input__description'), 'Keramik/HT Update')
 
-String state = WebUI.getAttribute(toggleBtn, 'aria-checked')
+WebUI.click(findTestObject('MasterItemPage/Item Sub Category/button_Save'))
 
-if (state == 'true') {
-    WebUI.comment('Toggle Active')
-    WebUI.click(toggleBtn)
-} else {
-    WebUI.comment('Toggle sudah Inactive')
-}
-
-WebUI.click(findTestObject('MasterItemPage/Item Group/button_Save'))
-
-CustomKeywords.'helper.VerifyValue.verifyToastContains'('Cannot deactivate Item Group because it is referenced in another table')
+CustomKeywords.'helper.VerifyValue.verifyValueExistsInColumn'(1, 'Keramik/HT Update')
 
