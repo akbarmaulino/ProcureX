@@ -1,18 +1,22 @@
-.gradle
-
-bin
-
-Reports
-
-Libs
-
-output
-
+# ===== KATALON GENERATED =====
+.gradle/
+bin/
+Libs/
+Reports/
+Reports/**
+output/
 !output/.gitkeep
-build
+build/
+.cache/
+settings/
 
+# ===== IDE / WORKSPACE =====
 .classpath
-
 .project
 
-.cache
+# ===== LOGS =====
+*.log
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
